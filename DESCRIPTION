@@ -3,18 +3,29 @@ Title: Utilities for Convenient Extraction of Medical Image Metadata
 Version: 1.0.7.2
 Author: Pamela Russell [aut, cre]
 Maintainer: Pamela Russell <pamela.russell@gmail.com>
-Authors@R: person("Pamela", "Russell", email = "pamela.russell@gmail.com", role = c("aut", "cre"))
-Description: A collection of utilities for navigating medical image data. The DICOM and NIfTI formats
-  are supported. Functions provide simple interfaces to the data and metadata contained in these formats.
-  A particular emphasis on metadata allows simple conversion of image metadata to familiar R data structures
-  such as lists and data frames. Where possible, generic functions can silently process either DICOM or
-  NIfTI data. Additionally, image data can be extracted and viewed.
+Authors@R: person("Pamela", "Russell", email =
+        "pamela.russell@gmail.com", role = c("aut", "cre"))
+Description: A collection of utilities for navigating medical image
+        data. The DICOM and NIfTI formats are supported. Functions
+        provide simple interfaces to the data and metadata contained in
+        these formats. A particular emphasis on metadata allows simple
+        conversion of image metadata to familiar R data structures such
+        as lists and data frames. Where possible, generic functions can
+        silently process either DICOM or NIfTI data. Additionally,
+        image data can be extracted and viewed.
 Depends: R (>= 3.4.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Imports: oro.dicom, dplyr, Hmisc, oro.nifti, magrittr, methods, TCIApathfinder, R.utils, xfun
+Imports: oro.dicom, dplyr, Hmisc, oro.nifti, magrittr, methods,
+        TCIApathfinder, R.utils, xfun
 RoxygenNote: 6.1.1
-Suggests: testthat, covr, knitr, rmarkdown, rvest, hashmap, stringr, xml2
+Suggests: testthat, covr, knitr, rmarkdown, rvest, hashmap, stringr,
+        xml2
 VignetteBuilder: knitr
 NeedsCompilation: no
+Repository: Neuroconductor
+Remotes: 
+    neuroconductor/oro.nifti@bd06b05d2a090c743e51d745a826e8b77af278f0,
+    neuroconductor/oro.dicom@7f1fd6a4f7c63754e62fb7246e4ff8e63222bf7c
+biocViews: 
